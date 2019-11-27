@@ -11,6 +11,7 @@ import Model.Histogram;
 import Model.Mail;
 
 public class MailHistogramBuilder {
+    
     public static Histogram<String>  build(List<Mail> lista) {
         Histogram<String> histogram = new Histogram<>();
         for (int i = 0;i < lista.size();i++) {
@@ -18,4 +19,5 @@ public class MailHistogramBuilder {
         }
         return histogram;
     }
+    
 }
