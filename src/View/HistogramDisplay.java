@@ -18,7 +18,8 @@ import org.jfree.data.category.DefaultCategoryDataset;
 
 
 public class HistogramDisplay extends ApplicationFrame {
-   private final Histogram<String> histogram; 
+    
+    private final Histogram<String> histogram; 
     
     public HistogramDisplay(Histogram<String> histogram) {
         super("HISTOGRAMA");
